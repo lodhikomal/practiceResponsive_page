@@ -1,0 +1,88 @@
+.blog-heading {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 3.75rem;
+  line-height: 1.17;
+  color: var(--heading);
+  font-weight: 400;
+  padding: 3rem;
+}
+.blog-card {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.blog-card1 {
+  padding: 1%;
+  object-fit: cover;
+  text-align: center;
+}
+.blog-address {
+  height: 18vw;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog-img {
+  width: 20vw;
+  height: 13vw;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.blog-para {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--text);
+  margin-bottom: 0.52em;
+  font-weight: 400;
+}
+.blogger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.blog-nameImg {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.blog-name {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.blog-card1:hover {
+  border: 2px solid #6f42c1;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .blog-heading {
+    text-align: center;
+  }
+  .blog-card1 {
+    width: 100%;
+  }
+  .blog-img {
+    width: 100%;
+
+    height: auto;
+  }
+  .blog-address {
+    height: auto;
+    width: 100%;
+  }
+  .blogger {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,117 @@
+.new-cardWrapper {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+
+  gap: 1vw;
+}
+
+.svg-image {
+  width: 41vw;
+  height: 58vw;
+  padding: 0 4vw;
+  display: flex;
+}
+.newCard-text {
+  padding: 3vw 4vw 2vw 2vw;
+
+  color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.text-heading1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  opacity: 0.4;
+  /* margin-bottom: 12px; */
+  font-family: "Kantumruy Pro", sans-serif;
+  margin-bottom: 0;
+}
+.text-heading2 {
+  font-size: 3.75rem;
+  line-height: 1.17;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: 400;
+}
+.text-para {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.new-btn {
+  width: 180px;
+  height: 60px;
+  padding: 1em 2em;
+  border-radius: 300px !important;
+  font-weight: 400;
+  line-height: 1 !important;
+  box-shadow: none !important;
+  transform-style: preserve-3d;
+  background-color: #dedb7b !important;
+  border-color: #dedb7b;
+  font-style: normal;
+  margin: 0.6rem 0.6rem;
+  white-space: normal;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+  color: var(--text);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text);
+}
+.wrapper-bottom {
+  padding: 3vw 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-text {
+  padding: 3vw 6vw;
+  font-weight: 600;
+  font-size: 3.75rem;
+  line-height: 1.17;
+
+  font-family: "Kantumruy Pro", sans-serif;
+}
+.newCard-container {
+  display: flex;
+  /* justify-content: inherit; */
+  /* gap: 20px; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 3rem;
+}
+.newCard-container img {
+  width: 21vw;
+  height: 3vw;
+  padding-right: 4rem;
+}
+@media (max-width: 600px) {
+  .new-cardWrapper {
+    flex-direction: column;
+  }
+  .svg-image {
+    width: 100%;
+  }
+  .newCard-text {
+    align-items: center;
+  }
+  .newCard-container {
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+  }
+  .bottom-text {
+    text-align: center;
+  }
+}
